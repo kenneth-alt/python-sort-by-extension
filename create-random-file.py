@@ -12,4 +12,3 @@ with open('c_programs.txt', 'w') as file:
         extension = random.choice(extensions)
         # write to file
         file.write(f"{filename}{extension}\n")
-
